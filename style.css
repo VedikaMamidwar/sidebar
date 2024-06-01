@@ -1,0 +1,33 @@
+.main{
+   display: flex;
+   min-height: 400vh;
+   margin: 0;
+   padding:0;
+}
+.main1{
+    background-color:rgb(64, 64, 64);
+    width:200px;
+}
+.main2{
+    background-color:rgb(140, 140, 140);
+    width:100%;
+}
+.menu-item{
+    background-color:rgb(140, 140, 140);
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+.menu-item :hover{
+    background-color: #ECEFF1;
+}
+.menu-icon{
+    height: 25px;
+    ;
+}
+.menu-text{
+    margin-left: 5px;
+}
