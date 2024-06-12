@@ -1,49 +1,99 @@
-body {
-   font-family: Arial, sans-serif;
-   background-color: aliceblues;
-   margin: 0;
-   padding: 0;
-}
+         .main {
+            display: flex;
+            margin-top: 0;
+      
+        }
 
-.main {
-   display: flex;
-}
+        .main1 {
+            width: 100%;
+            height: 120vh;
+            background-color: #56b7e5;
+            padding: 10px;
+            
+        }
 
-.main1 {
-   width:200px;
-   height: 110vh;
-   background-color: #56b7e5;
-   
-}
+        .menu-item {
+            text-align: center;
+            background-color: white;
+            margin: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding: 5px 20px;
+        }
 
-.menu-item {
-   text-align: center;
-   background-color: white;
-   margin: 10px;
-   border-radius: 5px;
-   display: flex;
-   align-items: center;
-   padding:5px 20px;
-}
+        .menu-icon {
+            width: 40px;
+            height: 40px;
+        }
 
-.menu-icon {
-   width: 40px;
-   height: 40px;
-}
+        .main2 {
+            flex: 1;
+            background-color: rgb(171, 226, 254);
+            text-align: center;
+            margin:  0;
+            padding: 20px;
+        }
+         
 
-.main2 {
-   text-align: center;
-   margin-top: 20px;
-   margin: 0;
-   padding: 0;
-}
-footer {
-   background-color: rgb(19, 190, 253);
-   padding: 10px 0;
-}
+        footer {
+            background-color: rgb(19, 190, 253);
+            padding: 10px 0;
+        }
 
-footer .container{
-   text-align: center;
-   
+        footer .container {
+            text-align: center;
+        }
 
-}
+        /* Media Queries for Small Devices */
+        @media (max-width: 768px) {
+            .main {
+                flex-direction:row;
+                margin-top: 0;
+            }
+
+            .main1 {
+                width: 100px;
+                height: auto;
+            }
+
+            .menu-item {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            .main2 {
+               flex: 1;
+                margin-top: 0; 
+                height: auto;
+                padding: 10px;
+            
+            }
+
+            .sidebar-img {
+                height:800px;
+                width: 200px;
+                
+            }
+        }
+
+        @media (max-width: 480px) {
+            .menu-item {
+                margin: 5px;
+                padding: 10px 5px;
+            }
+
+            .menu-icon {
+                width: 30px;
+                height: 30px;
+            }
+
+            .main2 {
+                padding: 10px;
+            }
+
+            .sidebar-img {
+                height: 80px; /* Adjust as needed */
+            }
+        }
+    
