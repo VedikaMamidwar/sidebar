@@ -32,16 +32,11 @@ body {
 }
 
 .main2 {
-   background-color:rgb(171, 226, 254);
    text-align: center;
    margin-top: 20px;
    margin: 0;
    padding: 0;
 }
-main2 h1{
-   ont-family: Arial, sans-serif;
-}
-
 footer {
    background-color: rgb(19, 190, 253);
    padding: 10px 0;
